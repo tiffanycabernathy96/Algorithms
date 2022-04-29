@@ -7,5 +7,3 @@ Implementationa of Various Algorithms
 
 ## Inprogress Algorithms
 - Dijsktra's
-- A*
-- BFS/DFS for Trees and Graphs
