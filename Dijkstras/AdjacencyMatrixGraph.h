@@ -5,17 +5,16 @@ using namespace AMGraph;
 class AdjacencyMatrixGraph {
 	
 private:
-	int** adjMatrix;
-	int numVertices;
-
 	void bfsSearch(int iStart, bool* iVisited);
 	void dfsR(int iStart, bool* iVisited);
 public:
+	int** adjMatrix;
+	int numVertices;
 	AdjacencyMatrixGraph(int iVertices);
 	~AdjacencyMatrixGraph();
 
-	void addEdge(Edge iEdge);
-	void deleteEdge(Edge iEdge);
+	void addEdge(AMGraph::Edge iEdge);
+	void deleteEdge(AMGraph::Edge iEdge);
 
 	void printMatrix();
 	void print();

@@ -3,12 +3,14 @@
 using namespace ALGraph;
 
 class AdjacencyListGraph{
-	int numVertices;
-	Node** adjList;
-
+	
+	
 	void bfsSearch(int iStart, bool* iVisited);
 	void dfsR(int iStart, bool* iVisited);
 public:
+	Node** adjList;
+	int numVertices;
+
 	AdjacencyListGraph(int iNumVertices);
 	~AdjacencyListGraph();
 
